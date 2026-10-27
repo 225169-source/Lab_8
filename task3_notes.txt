@@ -1,0 +1,13 @@
+Task 3 – Power BI Interactive Dashboard
+
+1. **Customer with No Orders:** Hina has no sales orders in the Sales table.
+
+2. **Product Never Sold:** Monitor has no sales records.
+
+3. **Large Order Sales:** The Large Order Sales measure returns 900 because only one order has a Line Total greater than or equal to 500.
+
+4. **CALCULATE Behavior:** When Total Sales is calculated with a filter that replaces the existing product category filter with Computers, the result is 900, even when the visual row originally represents Accessories.
+
+5. **Relationship Filtering:** Single cross-filter direction filters from the dimension table to Sales. Both direction allows filtering in both directions, so selecting a product can affect the Customers table through Sales.
+
+6. **Visual Interactions:** The Donut Chart's interaction with the Sales Percentage by Category Bar Chart was disabled using Edit interactions.
